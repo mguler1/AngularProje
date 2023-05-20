@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'AngularProje';
+  title = 'AngularProje'; //text interplation örneği
+  name:string ="Muhammed";
+  twoWayExample:string;
+  arrays:string[]=["Muhammed","Mehti","GÜLER"]
+
+  visible:boolean=true;
 }
